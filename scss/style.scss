@@ -1,0 +1,86 @@
+/*
+ Theme Name:   Tophica Child
+ Theme URI:    https://tophr.org/
+ Description:  Child Theme for Tophica
+ Author:       Topher McCulloch
+ Author URI:   http://tophermcculloch.com/
+ Template:     tophica
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, flexible-header, footer-widgets, full-width-template, one-column, post-formats, right-sidebar, sticky-post, theme-options, translation-ready, two-columns, blog, e-commerce
+ Text Domain:  tophica-child
+*/
+
+$primary-font: 'Merriweather', serif;
+$display-font: 'Copse', serif;
+	
+
+/* Typography */
+
+body {
+	border-top-color: #f5f5f5;
+	font-family: $primary-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $display-font;	
+	font-weight: 400;
+}
+
+input,
+textarea {
+	font-family: $primary-font;
+}
+
+.entry-content {
+	a {
+		font-weight: bold;
+	}
+}
+
+/* Page & Post Titles */
+
+.home.page .recent-wrap h3,
+.entry-title, 
+.entry-title a,
+.page-title,
+.recent-wrap .hentry {
+	text-transform: none;
+}
+
+.recent-wrap .hentry {
+	margin-bottom: 30px;
+}
+
+/* Portfolio */
+.image-grid li {
+	height: 270px;
+}
+
+/* Single Portfolio Page */
+
+@media (min-width: 769px) {
+	.single-portfolio {
+		.portfolio-recent .sidebar,
+		.page-title,
+		.slides_container,
+		.recent-wrap {
+			width: 80%;
+			margin: 0 auto;
+			float: none;		
+		}
+		.slides_container {
+			padding: 0;
+		}
+		.page-back {
+			margin-right: 10%;
+		}
+	}
+}
+
+/* Footer */
+
+#footer-wave {
+	display: none;
+}
