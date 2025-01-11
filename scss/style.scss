@@ -118,6 +118,45 @@ a:hover, a:focus {
 	display: none;
 }
 
+#footer-widgets {
+	h3 {
+		text-transform: lowercase;
+		font-size: 1rem;
+		letter-spacing: 0;
+	}
+}
+
+.flickr-images {
+	a {
+		display: block;
+		flex: 0 0 auto;
+		width: 25%;
+		line-height: 1;
+		padding-right: 3px; // this is dumb but gap isn't working like i want
+		img {
+			margin: 0 !important;
+			width: 100%;
+			height: 100%;
+			line-height: 1;
+		}
+	}
+}
+
+.flickr-more {
+	font-size: 0.875rem;
+}
+
+.tz_blog .entry-title, .tz_blog .entry-title a {
+	font-size: 1.25rem;
+	line-height: 1.3;
+}
+
+.credit {
+	a {
+		text-decoration: none;
+	}
+}
+
 /* Utilities */
 .mb-0 {
 	margin-bottom: 0 !important;
