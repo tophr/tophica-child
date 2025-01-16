@@ -5,7 +5,7 @@
  Author:       Topher McCulloch
  Author URI:   http://tophermcculloch.com/
  Template:     tophica
- Version:      1.0.4
+ Version:      1.0.5
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, flexible-header, footer-widgets, full-width-template, one-column, post-formats, right-sidebar, sticky-post, theme-options, translation-ready, two-columns, blog, e-commerce
@@ -19,6 +19,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Copse", serif;
   font-weight: 400; }
+
+h1 {
+  line-height: 1.2; }
 
 input,
 textarea {
@@ -65,9 +68,7 @@ a:hover, a:focus {
     margin: 0 auto;
     float: none; }
   .single-portfolio .slides_container {
-    padding: 0; }
-  .single-portfolio .page-back {
-    margin-right: 10%; } }
+    padding: 0; } }
 
 /* Footer */
 #footer-container {
